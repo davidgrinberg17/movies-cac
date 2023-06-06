@@ -1,5 +1,5 @@
 import './App.css';
-import { PeliculasGrid } from './PeliculasGrid';
+import { PeliculasGrid } from './Components/PeliculasGrid';
 
 function App() {
   return (
