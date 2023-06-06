@@ -4,11 +4,11 @@ import { PeliculasGrid } from './PeliculasGrid';
 function App() {
   return (
     <div>
-      <header className="title">
+      <header className="title">PELICULAS</header>
         <main>
           <PeliculasGrid/>
         </main>
-      </header>
+      
     </div>
   );
 }

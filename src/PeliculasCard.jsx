@@ -1,4 +1,4 @@
-
+import "./PeliculasCard.css"
 
 export const PeliculasCard = ({peliculaProp}) => {
 

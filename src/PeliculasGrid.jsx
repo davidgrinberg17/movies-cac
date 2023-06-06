@@ -1,5 +1,6 @@
 import peliculas from "./peliculas.json"
 import { PeliculasCard } from "./PeliculasCard"
+import "./PeliculasGrid.css"
 
 export const PeliculasGrid = () => {
     return(
