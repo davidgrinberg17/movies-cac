@@ -1,4 +1,5 @@
 import "./PeliculasCard.css"
+import { Link } from "react-router-dom"
 
 export const PeliculasCard = ({peliculaProp}) => {
 
@@ -6,8 +7,10 @@ export const PeliculasCard = ({peliculaProp}) => {
 
     return(
         <li className="movieCard">
-            <div>{peliculaProp.title}</div>
-            <img className="movieImage" src={imgURL} alt={peliculaProp.title} />
+            <Link to={`/pelicula/${peliculaProp.id}`}>
+                <div>{peliculaProp.title}</div>
+                <img className="movieImage" src={imgURL} alt={peliculaProp.title} />
+            </Link>
         </li>
     )
 }
